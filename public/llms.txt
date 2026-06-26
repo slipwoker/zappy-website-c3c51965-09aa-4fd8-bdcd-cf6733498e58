@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://shilat-c3c51965.zappy5.app
+https://example.com
 אבקת שיניים טבעית ביתית להחזרת מינרלים לאמייל ומניעת עששת. סינרגיה ייחודית עם יוגורט לניקוי עמוק ובריאות חניכיים. הצטרפו למהפכה.
 
 ### איך זה עובד
-https://shilat-c3c51965.zappy5.app/how-it-works
+https://example.com/how-it-works
 איך אבקת שיניים ויוגורט יוצרים יחד מנגנון טבעי לחיזוק השיניים? גלו את המדע שמאחורי הרמינרליזציה העמוקה וטיפול החניכיים העדין.
 
 ### מרכיבים ואומנות
-https://shilat-c3c51965.zappy5.app/ingredients-craft
+https://example.com/ingredients-craft
 צלילה למרכיבים: אדמה דיאטומית עשירה בסיליקה, קסיליטול ליבנה, מאצ&#39;ה אורגני וקינמון ציילון. כל רכיב נבחר בקפידה לשמירה על הפה שלכם בדרך הטבע.
 
 ### צור קשר
-https://shilat-c3c51965.zappy5.app/contact
+https://example.com/contact
 יש שאלות על המעבר לטיפול פה טבעי? רוצים לשמוע עוד על האבקה הביתית שלנו? כתבו לנו ונחזור אליכם עם כל הפרטים והטיפים להתחלה קלה.
 
 ### תודה שפניתם אלינו
-https://shilat-c3c51965.zappy5.app/thank-you
+https://example.com/thank-you
 SHILAT - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://shilat-c3c51965.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://shilat-c3c51965.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://shilat-c3c51965.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://shilat-c3c51965.zappy5.app/contact
-- Endpoint: https://shilat-c3c51965.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -85,6 +85,6 @@ Natural Oral Care
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://shilat-c3c51965.zappy5.app/sitemap.xml
-- Robots: https://shilat-c3c51965.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://shilat-c3c51965.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
