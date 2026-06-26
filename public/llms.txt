@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://example.com
+https://shilat.zappy5.app
 אבקת שיניים טבעית ביתית להחזרת מינרלים לאמייל ומניעת עששת. סינרגיה ייחודית עם יוגורט לניקוי עמוק ובריאות חניכיים. הצטרפו למהפכה.
 
 ### איך זה עובד
-https://example.com/how-it-works
+https://shilat.zappy5.app/how-it-works
 איך אבקת שיניים ויוגורט יוצרים יחד מנגנון טבעי לחיזוק השיניים? גלו את המדע שמאחורי הרמינרליזציה העמוקה וטיפול החניכיים העדין.
 
 ### מרכיבים ואומנות
-https://example.com/ingredients-craft
+https://shilat.zappy5.app/ingredients-craft
 צלילה למרכיבים: אדמה דיאטומית עשירה בסיליקה, קסיליטול ליבנה, מאצ&#39;ה אורגני וקינמון ציילון. כל רכיב נבחר בקפידה לשמירה על הפה שלכם בדרך הטבע.
 
 ### צור קשר
-https://example.com/contact
+https://shilat.zappy5.app/contact
 יש שאלות על המעבר לטיפול פה טבעי? רוצים לשמוע עוד על האבקה הביתית שלנו? כתבו לנו ונחזור אליכם עם כל הפרטים והטיפים להתחלה קלה.
 
 ### תודה שפניתם אלינו
-https://example.com/thank-you
+https://shilat.zappy5.app/thank-you
 SHILAT - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://shilat.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://shilat.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://shilat.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -48,8 +48,8 @@ Information about WCAG compliance and accessibility features.
 - Phone (tel): tel:0586527774
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://shilat.zappy5.app/contact
+- Endpoint: https://shilat.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -86,6 +86,6 @@ Natural Oral Care
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://shilat.zappy5.app/sitemap.xml
+- Robots: https://shilat.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://shilat.zappy5.app/llms-full.txt
