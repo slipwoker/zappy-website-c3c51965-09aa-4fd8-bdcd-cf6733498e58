@@ -5679,8 +5679,9 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   padding: 120px 24px 60px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
+  text-align: center;
 }
 
 .index-hero-section__label {
@@ -5703,7 +5704,8 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   color: var(--text-light);
   margin: 0;
   text-shadow: 0 4px 18px rgba(0,0,0,0.45);
-  max-width: 700px;
+  max-width: 100%;
+  text-align: center;
 }
 
 .index-hero-section__subtitle {
@@ -5713,22 +5715,25 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   line-height: 1.5;
   color: var(--text-light);
   margin: 0;
-  max-width: 580px;
+  max-width: 100%;
   opacity: 0.95;
   text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  text-align: center;
 }
 
 .index-hero-section__ritual {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  max-width: 580px;
+  max-width: 100%;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 16px;
   padding: 16px 20px;
   border: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+  justify-content: center;
 }
 
 .index-hero-section__ritual-icon {
@@ -5753,6 +5758,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   align-items: center;
   gap: 16px;
   margin-top: 8px;
+  justify-content: center;
 }
 
 .index-hero-section__btn {
