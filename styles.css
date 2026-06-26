@@ -2088,234 +2088,26 @@ main { flex: 1 0 auto; }
 /* process */
 
 /* cta */
-.index-cta-section {
-  background-color: var(--bg-light);
-  color: var(--text-dark);
-  padding: 100px 16px 120px;
-  position: relative;
-  overflow: visible;
-  text-align: right;
-  direction: rtl;
-}
-
-.index-cta-section .cta-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 400px;
-}
 
 /* Decorative Herb SVG */
-.index-cta-section .cta-decor-herb {
-  position: absolute;
-  top: -40px;
-  inset-inline-end: -20px;
-  width: 220px;
-  height: 220px;
-  z-index: 0;
-  pointer-events: none;
-  color: var(--primary);
-}
 
 /* Elevated Recipe Card */
-.index-cta-section .cta-card {
-  background-color: #FFFFFF;
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-card);
-  padding: var(--spacing-card-padding);
-  box-shadow: var(--shadow-card);
-  max-width: 680px;
-  width: 100%;
-  position: relative;
-  z-index: 10;
-  text-align: center;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.index-cta-section .cta-card:hover {
-  box-shadow: var(--shadow-elevated);
-  transform: translateY(-4px);
-}
 
 /* Badge */
-.index-cta-section .cta-badge {
-  display: inline-block;
-  background-color: var(--accent);
-  color: var(--text-dark);
-  font-size: 0.875rem;
-  font-weight: 600;
-  padding: 6px 18px;
-  border-radius: var(--radius-badge);
-  margin-bottom: 24px;
-  letter-spacing: 0.3px;
-}
 
 /* Heading */
-.index-cta-section .cta-heading {
-  font-family: 'Rubik', sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.3;
-  color: var(--text-dark);
-  margin: 0 0 20px 0;
-  text-align: center;
-}
 
 /* Description */
-.index-cta-section .cta-description {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--text-muted);
-  margin: 0 auto 36px;
-  max-width: 540px;
-  text-align: center;
-}
 
 /* Actions Group */
-.index-cta-section .cta-actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 36px;
-}
 
 /* Primary CTA Button */
-.index-cta-section .btn-primary-cta {
-  background-color: var(--primary);
-  color: #FFFFFF;
-  padding: 14px 28px;
-  border-radius: var(--radius-btn);
-  border: none;
-  font-weight: 600;
-  font-size: 0.95rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(184, 115, 82, 0.2);
-  letter-spacing: 0.5px;
-}
-
-.index-cta-section .btn-primary-cta:hover {
-  background-color: #9E5F42;
-  box-shadow: var(--shadow-btn-hover);
-  transform: translateY(-1px);
-  color: #FFFFFF;
-}
 
 /* Secondary WhatsApp CTA Button */
-.index-cta-section .btn-whatsapp-cta {
-  background-color: transparent;
-  color: var(--secondary);
-  padding: 14px 28px;
-  border-radius: var(--radius-btn);
-  border: 1.5px solid var(--secondary);
-  font-weight: 600;
-  font-size: 0.95rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  letter-spacing: 0.5px;
-}
-
-.index-cta-section .btn-whatsapp-cta:hover {
-  background-color: var(--secondary);
-  color: #FFFFFF;
-  box-shadow: var(--shadow-btn-hover);
-  transform: translateY(-1px);
-}
 
 /* Trust Line */
-.index-cta-section .cta-trust-line {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  padding-top: 24px;
-  border-top: 1px solid var(--border-light);
-  color: var(--text-muted);
-  font-size: 0.875rem;
-}
-
-.index-cta-section .cta-trust-line i {
-  color: #25D366;
-  font-size: 1.1rem;
-}
-
-.index-cta-section .cta-trust-line .trust-text {
-  font-weight: 400;
-  color: var(--text-muted);
-}
-
-.index-cta-section .cta-trust-line .trust-number {
-  font-weight: 600;
-  color: var(--text-dark);
-  text-decoration: none;
-  direction: ltr;
-  display: inline-block;
-  transition: color 0.3s ease;
-  margin-inline-start: 4px;
-}
-
-.index-cta-section .cta-trust-line .trust-number:hover {
-  color: var(--primary);
-  text-decoration: underline;
-}
 
 /* Responsive Adjustments */
-@media (max-width: 768px) {
-  .index-cta-section {
-    padding: 60px 16px 80px;
-  }
-
-  .index-cta-section .cta-container {
-    min-height: auto;
-  }
-
-  .index-cta-section .cta-decor-herb {
-    top: -20px;
-    inset-inline-end: -10px;
-    width: 140px;
-    height: 140px;
-    opacity: 0.1;
-  }
-
-  .index-cta-section .cta-card {
-    padding: 28px 20px;
-  }
-
-  .index-cta-section .cta-heading {
-    font-size: 1.75rem;
-  }
-
-  .index-cta-section .cta-actions {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .index-cta-section .btn-primary-cta,
-  .index-cta-section .btn-whatsapp-cta {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .index-cta-section .cta-trust-line {
-    flex-direction: column;
-    text-align: center;
-    gap: 4px;
-  }
-}
 
 /* intro */
 .how-it-works-intro-section {
@@ -6540,7 +6332,6 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   }
 }
 
-
 /* ═══════════════════════════════════════════════════════════
    V2 REGENERATED SECTION CSS (בית-process)
    Added: 2026-06-26T13:40:44.681Z
@@ -6818,6 +6609,315 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 [data-layout-spec="בית-process"] > header > * { margin-inline: auto !important; max-width: 100% !important; }
 
+
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (בית-cta)
+   Added: 2026-06-26T13:41:35.834Z
+   ═══════════════════════════════════════════════════════════ */
+.index-cta-section {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  position: relative;
+  overflow: hidden;
+  padding: 80px 16px;
+  direction: rtl;
+}
+
+.index-cta-section .cta-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Decorative Motifs */
+.index-cta-section .deco-apple {
+  position: absolute;
+  top: -20px;
+  left: 5%;
+  width: 140px;
+  height: auto;
+  color: var(--secondary);
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.index-cta-section .deco-herb {
+  position: absolute;
+  bottom: -40px;
+  right: 2%;
+  width: 220px;
+  height: auto;
+  color: var(--secondary);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+  transform: rotate(-15deg);
+}
+
+/* Main Content Split */
+.index-cta-section .cta-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.index-cta-section .cta-text-area {
+  flex: 1 1 55%;
+  z-index: 10;
+}
+
+.index-cta-section .cta-visual-area {
+  flex: 1 1 45%;
+  position: relative;
+  z-index: 5;
+}
+
+/* Text Styles */
+.index-cta-section .cta-pre-title {
+  display: inline-block;
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.index-cta-section .cta-heading {
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--text-dark);
+  margin-bottom: 24px;
+  max-width: 500px;
+}
+
+.index-cta-section .cta-description {
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 36px;
+  max-width: 500px;
+}
+
+/* Actions */
+.index-cta-section .cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.index-cta-section .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--primary);
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border-radius: 100px;
+  border: none;
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(184, 115, 82, 0.25);
+}
+
+.index-cta-section .btn-primary:hover {
+  background-color: #A06445;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(184, 115, 82, 0.35);
+}
+
+.index-cta-section .btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #25D366;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border-radius: 100px;
+  border: none;
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.25);
+}
+
+.index-cta-section .btn-whatsapp:hover {
+  background-color: #1DA851;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(37, 211, 102, 0.35);
+}
+
+/* Direct Info */
+.index-cta-section .cta-direct-info {
+  padding-top: 24px;
+  border-top: 1px solid var(--border-light);
+}
+
+.index-cta-section .direct-text {
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.index-cta-section .direct-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  direction: ltr; /* Phone numbers display LTR */
+}
+
+.index-cta-section .direct-link:hover {
+  color: var(--primary);
+}
+
+/* Visual Area */
+.index-cta-section .cta-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin-inline-start: auto;
+}
+
+.index-cta-section .cta-image {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  box-shadow: var(--shadow-medium);
+}
+
+.index-cta-section .organic-blob {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 250px;
+  height: 250px;
+  background-color: var(--accent);
+  border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%;
+  opacity: 0.4;
+  z-index: 1;
+  filter: blur(20px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .index-cta-section {
+    padding: 60px 16px;
+  }
+
+  .index-cta-section .deco-apple {
+    width: 100px;
+    top: 10px;
+    left: -20px;
+    opacity: 0.04;
+  }
+
+  .index-cta-section .deco-herb {
+    width: 160px;
+    bottom: -20px;
+    right: -30px;
+    opacity: 0.05;
+  }
+
+  .index-cta-section .cta-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .index-cta-section .cta-text-area {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .index-cta-section .cta-pre-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .index-cta-section .cta-heading {
+    font-size: 2rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .index-cta-section .cta-description {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .index-cta-section .cta-actions {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .index-cta-section .btn-primary,
+  .index-cta-section .btn-whatsapp {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+    padding: 16px 24px;
+  }
+
+  .index-cta-section .cta-direct-info {
+    text-align: center;
+  }
+
+  .index-cta-section .direct-link {
+    justify-content: center;
+  }
+
+  .index-cta-section .cta-visual-area {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .index-cta-section .cta-image-wrapper {
+    max-width: 100%;
+    margin-inline-start: 0;
+  }
+
+  .index-cta-section .organic-blob {
+    width: 180px;
+    height: 180px;
+    bottom: -20px;
+    right: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .index-cta-section .cta-heading {
+    font-size: 1.75rem;
+  }
+
+  .index-cta-section .cta-actions {
+    gap: 10px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
