@@ -1,0 +1,90 @@
+# SHILAT — Generative Engine Optimization Map
+
+> A natural, homemade tooth powder brand rooted in holistic oral wellness. The product is formulated with food-grade diatomaceous earth rich in silica, birch xylitol, and organic matcha, mint, and Ceylon cinnamon to remineralize enamel, prevent cavities, and support gum health. Its unique mechanism involves synergy with yogurt during brushing — lactic acid stimulates calcium-rich saliva while trace minerals penetrate micro-cracks in enamel for deep, natural remineralization. The brand emphasizes transparency, natural ingredients, and a home-crafted identity, positioning itself as a premium-yet-honest alternative to industrial toothpaste.
+
+---
+
+## Pages
+
+### בית
+https://shilat-c3c51965.zappy5.app
+אבקת שיניים טבעית ביתית להחזרת מינרלים לאמייל ומניעת עששת. סינרגיה ייחודית עם יוגורט לניקוי עמוק ובריאות חניכיים. הצטרפו למהפכה.
+
+### איך זה עובד
+https://shilat-c3c51965.zappy5.app/how-it-works
+איך אבקת שיניים ויוגורט יוצרים יחד מנגנון טבעי לחיזוק השיניים? גלו את המדע שמאחורי הרמינרליזציה העמוקה וטיפול החניכיים העדין.
+
+### מרכיבים ואומנות
+https://shilat-c3c51965.zappy5.app/ingredients-craft
+צלילה למרכיבים: אדמה דיאטומית עשירה בסיליקה, קסיליטול ליבנה, מאצ&#39;ה אורגני וקינמון ציילון. כל רכיב נבחר בקפידה לשמירה על הפה שלכם בדרך הטבע.
+
+### צור קשר
+https://shilat-c3c51965.zappy5.app/contact
+יש שאלות על המעבר לטיפול פה טבעי? רוצים לשמוע עוד על האבקה הביתית שלנו? כתבו לנו ונחזור אליכם עם כל הפרטים והטיפים להתחלה קלה.
+
+### תודה שפניתם אלינו
+https://shilat-c3c51965.zappy5.app/thank-you
+SHILAT - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://shilat-c3c51965.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://shilat-c3c51965.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://shilat-c3c51965.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://shilat-c3c51965.zappy5.app/contact
+- Endpoint: https://shilat-c3c51965.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About SHILAT
+A natural, homemade tooth powder brand rooted in holistic oral wellness. The product is formulated with food-grade diatomaceous earth rich in silica, birch xylitol, and organic matcha, mint, and Ceylon cinnamon to remineralize enamel, prevent cavities, and support gum health. Its unique mechanism involves synergy with yogurt during brushing — lactic acid stimulates calcium-rich saliva while trace minerals penetrate micro-cracks in enamel for deep, natural remineralization. The brand emphasizes transparency, natural ingredients, and a home-crafted identity, positioning itself as a premium-yet-honest alternative to industrial toothpaste.
+
+## Services/Products
+- אבקת שיניים טבעית מבוססת אדמה דיאטומית
+- מינרליזציה מחדש של האמייל
+- חיזוק חניכיים
+- מניעת עששת בעזרת קסיליטול ליבנה
+- נוסחה עם מאצ'ה, מנטה וקינמון ציילון אורגניים
+
+## Target Audience
+- אנשים המחפשים פתרון טבעי לחיזוק שיניים ומינרליזציה מחדש של האמייל
+- מחפשי פתרונות טבעיים
+- הורים מודעים לבריאות
+- צרכנים ידידותיים לסביבה
+
+## Industry
+Natural Oral Care
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://shilat-c3c51965.zappy5.app/sitemap.xml
+- Robots: https://shilat-c3c51965.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://shilat-c3c51965.zappy5.app/llms-full.txt
