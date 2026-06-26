@@ -1419,6 +1419,45 @@ window.onload = function() {
     }
 })();
 
+/* ZAPPY_CUSTOM_JS_START:5b13cce9a309 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  // Initialize acc_toolbar if the script loaded and the function exists
+  if (typeof acctoolbar !== 'undefined' && typeof acctoolbar.init === 'function') {
+    acctoolbar.init({
+      position: 'right',
+      language: 'he'
+    });
+    console.log('[Accessibility] acctoolbar initialized');
+  } else {
+    // Try to force the toolbar to appear by checking if script loaded
+    var check = setInterval(function() {
+      if (typeof acctoolbar !== 'undefined') {
+        if (typeof acctoolbar.init === 'function') {
+          acctoolbar.init({ position: 'right', language: 'he' });
+        }
+        clearInterval(check);
+        console.log('[Accessibility] acctoolbar initialized (delayed)');
+      }
+    }, 500);
+    // Stop checking after 5 seconds
+    setTimeout(function() { clearInterval(check); }, 5000);
+  }
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:5b13cce9a309 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){

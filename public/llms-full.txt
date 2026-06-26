@@ -394,7 +394,6 @@ Description: אבקת שיניים טבעית ביתית להחזרת מינרל
 
 - [business_phone]
 
-- [business_address]
 
 
 
@@ -892,7 +891,6 @@ Description: איך אבקת שיניים ויוגורט יוצרים יחד מ�
 
 - [business_phone]
 
-- [business_address]
 
 
 
@@ -1342,7 +1340,6 @@ Description: צלילה למרכיבים: אדמה דיאטומית עשירה �
 
 - [business_phone]
 
-- [business_address]
 
 
 
@@ -1709,7 +1706,6 @@ SHILAT הוא מותג שנולד מתוך אהבה לבריאות טבעית ו
 
 - [business_phone]
 
-- [business_address]
 
 
 
@@ -1966,7 +1962,6 @@ SHILAT ("החברה", "אנו", "שלנו") מחויבת להגן על פרטי�
 
 - [business_phone]
 
-- [business_address]
 
 
 
@@ -2232,7 +2227,6 @@ SHILAT מחויבת להנגיש את השירותים לכלל הציבור. א
 
 - [business_phone]
 
-- [business_address]
 
 
 
@@ -2517,7 +2511,6 @@ SHILAT מספקת Natural Oral Care דרך האתר. השירותים כפופי
 
 - [business_phone]
 
-- [business_address]
 
 
 
@@ -2716,7 +2709,6 @@ Description: SHILAT - תודה שפניתם אלינו
 
 - [business_phone]
 
-- [business_address]
 
 
 
