@@ -737,6 +737,227 @@
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-story-section {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.index-story-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+}
+
+/* Media Column */
+.index-story-section__media {
+  flex: 0 0 45%;
+  position: relative;
+  min-width: 0;
+}
+
+.index-story-section__image-main {
+  position: relative;
+  z-index: 2;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-light);
+  background-color: #FFFFFF;
+}
+
+.index-story-section__image-main img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  object-fit: cover;
+}
+
+.index-story-section__image-secondary {
+  position: absolute;
+  bottom: -32px;
+  inset-inline-start: -32px;
+  width: 55%;
+  z-index: 3;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-medium);
+  border: 3px solid #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+.index-story-section__image-secondary img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  object-fit: cover;
+}
+
+.index-story-section__blob {
+  position: absolute;
+  top: 50%;
+  inset-inline-start: 50%;
+  transform: translate(-50%, -50%);
+  width: 110%;
+  height: 110%;
+  background: radial-gradient(circle at 30% 40%, rgba(184, 115, 82, 0.15) 0%, transparent 60%);
+  border-radius: 60% 40% 50% 50% / 50% 60% 40% 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Content Column */
+.index-story-section__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.index-story-section__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.index-story-section__title {
+  font-family: 'Fraunces', 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-dark);
+  margin: 0;
+  text-align: start;
+}
+
+.index-story-section__ornament {
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+}
+
+.index-story-section__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.index-story-section__text p {
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--text-dark);
+  margin: 0;
+  text-align: start;
+}
+
+.index-story-section__transparency {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-light);
+  margin-block-start: 8px;
+}
+
+.index-story-section__transparency-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(184, 115, 82, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+
+.index-story-section__transparency-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.index-story-section__subtitle {
+  font-family: 'Fraunces', 'Cormorant Garamond', serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin: 0;
+  text-align: start;
+}
+
+.index-story-section__transparency-content p {
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+  text-align: start;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .index-story-section {
+    padding: 100px 16px 60px;
+  }
+
+  .index-story-section__container {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .index-story-section__media {
+    flex: none;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .index-story-section__image-secondary {
+    bottom: -24px;
+    inset-inline-start: -20px;
+    width: 50%;
+  }
+
+  .index-story-section__content {
+    gap: 20px;
+  }
+
+  .index-story-section__transparency {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .index-story-section__transparency-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "c3c51965-09aa-4fd8-bdcd-cf6733498e58"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -1395,47 +1616,44 @@
   <div class="index-benefits-section__decoration index-benefits-section__decoration--blob" aria-hidden="true"></div>
 </section>
 
-<section data-band-index="2" class="index-story-section" data-layout-spec="בית-story">
-    <div class="story-container">
-        <!-- Content Column (Right in RTL) -->
-        <div class="story-content">
-            <h2>הסיפור שמאחורי האבקה</h2>
-            <p>שילת נולדה מתוך אהבה עמוקה לבריאות טבעית ורצון להחזיר את הטיפול בפה אל המקורות הפשוטים והאמיתיים. כל קופסה מיוצרת בעבודת יד קפדנית, במנות קטנות, כדי להבטיח שכל גרגיר אבקה ישמור על טריותו ועל עוצמת הרכיבים הטבעיים. אנחנו מאמינים שמה שנכנס לפה שלכם צריך להיות שקוף, טהור ומזין בדיוק כמו המזון שאתם אוכלים.</p>
-            <p>הפורמולה שלנו מבוססת על סינרגיה נדירה בין אדמה דיאטומית עשירה בסיליקה, קסיליטול ליבנה איכותי ותמציות צמחים אורגניות. כל רכיב נבחר בקפידה כדי לעבוד בהרמוניה – לחזק את האמייל, לאזן את חומציות הפה, ולהעניק תחושת ניקיון רעננה שנמשכת לאורך כל היום. זוהי אבקת שיניים שמכבדת את הגוף שלכם, בלי פשרות.</p>
-            <div class="honesty-note">
-                <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 16v-4M12 8h.01"></path></svg>
-                <h3>שקיפות מלאה – האחריות שלנו אליכם</h3>
-                <p>האבקה מוכנה בהכנה ביתית ואינה מוצר תעשייתי. היא אינה מיועדת להחליף ייעוץ רפואי, אבחון או טיפול דנטלי מקצועי. אנו ממליצים להתייעץ עם רופא השיניים שלכם לפני השימוש, במיוחד אם יש לכם רגישויות או מצבים רפואיים ידועים. המטרה שלנו היא להציע אלטרנטיבה טבעית ומזינה, לצד הקפדה על שקיפות ואחריות מלאה.</p>
-            </div>
-        </div>
-
-        <!-- Imagery Column (Left in RTL) -->
-        <div class="story-imagery">
-            <div class="image-stack">
-                <!-- Main product lifestyle image -->
-                <div class="image-main">
-                    <img loading="lazy" decoding="async" data-placeholder="index-story-image-1" data-context="A warm, editorial flat-lay of the SHILAT natural tooth powder jar on a rustic wooden surface, surrounded by organic ingredients like cinnamon sticks, fresh mint leaves, and a wooden spoon with powder. Soft natural daylight, warm earthy tones, shallow depth of field, premium tactile feel." width="600" height="750" src="/assets/site-index-story-image-1.webp" alt="צנצנת אבקת שיניים טבעית שילת על משטח עץ עם רכיבים אורגניים">
-                </div>
-                <!-- Secondary backplate peeking from bottom-end corner -->
-                <div class="image-backplate">
-                    <img loading="lazy" decoding="async" data-placeholder="index-story-image-2" data-context="A close-up, softly lit detail shot of a ceramic bowl with yogurt and a sprinkle of green matcha tooth powder, with a textured linen cloth in the background. The image has a warm, creamy color palette and a soft, dreamy focus." width="400" height="300" src="/assets/site-index-story-image-2.webp" alt="קערת יוגורט עם אבקת מאצ׳ה ובד פשתן ברקע">
-                </div>
-            </div>
-        </div>
+<section class="index-story-section" data-layout-spec="בית-story" dir="rtl" data-zappy-section="true">
+  <div class="index-story-section__container">
+    <div class="index-story-section__media">
+      <div class="index-story-section__image-main">
+        <img alt="צנצנת אבקת שיניים טבעית שילת על משטח עץ עם רכיבים אורגניים" src="/assets/site-index-story-image-1.webp" data-placeholder="index-story-image-1" data-context="A warm, editorial flat-lay of the SHILAT natural tooth powder jar on a rustic wooden surface, surrounded by organic ingredients like cinnamon sticks, fresh mint leaves, and a wooden spoon with powder. Soft natural daylight, warm earthy tones, shallow depth of field, premium tactile feel." style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+      </div>
+      <div class="index-story-section__image-secondary">
+        <img alt="קערת יוגורט עם אבקת מאצ׳ה ובד פשתן ברקע" src="/assets/site-index-story-image-2.webp" data-placeholder="index-story-image-2" data-context="A close-up, softly lit detail shot of a ceramic bowl with yogurt and a sprinkle of green matcha tooth powder, with a textured linen cloth in the background. The image has a warm, creamy color palette and a soft, dreamy focus." style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+      </div>
+      <div class="index-story-section__blob" aria-hidden="true"></div>
     </div>
-
-    <!-- Bottom Divider: Diagonal soft fade with organic contour -->
-    <div class="story-divider-wrapper">
-        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <linearGradient id="storyFade" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#DCCCB7"></stop>
-                    <stop offset="100%" stop-color="#7B8563"></stop>
-                </linearGradient>
-            </defs>
-            <path d="M0,100 L0,60 Q80,20 200,55 T450,40 Q580,25 700,50 T950,35 Q1050,45 1200,30 L1200,100 Z" fill="var(--bg-dark)"></path>
-        </svg>
+    <div class="index-story-section__content">
+      <div class="index-story-section__header">
+        <h2 class="index-story-section__title">הסיפור שמאחורי האבקה</h2>
+        <div class="index-story-section__ornament" aria-hidden="true">
+          <svg width="40" height="12" viewBox="0 0 40 12" fill="none" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+            <path d="M0 6 C10 0, 30 0, 40 6 C30 12, 10 12, 0 6 Z" fill="var(--primary)" opacity="0.6"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="index-story-section__text">
+        <p>שילת נולדה מתוך אהבה עמוקה לבריאות טבעית ורצון להחזיר את הטיפול בפה אל המקורות הפשוטים והאמיתיים. כל קופסה מיוצרת בעבודת יד קפדנית, במנות קטנות, כדי להבטיח שכל גרגיר אבקה ישמור על טריותו ועל עוצמת הרכיבים הטבעיים. אנחנו מאמינים שמה שנכנס לפה שלכם צריך להיות שקוף, טהור ומזין בדיוק כמו המזון שאתם אוכלים.</p>
+        <p>הפורמולה שלנו מבוססת על סינרגיה נדירה בין אדמה דיאטומית עשירה בסיליקה, קסיליטול ליבנה איכותי ותמציות צמחים אורגניות. כל רכיב נבחר בקפידה כדי לעבוד בהרמוניה – לחזק את האמייל, לאזן את חומציות הפה, ולהעניק תחושת ניקיון רעננה שנמשכת לאורך כל היום. זוהי אבקת שיניים שמכבדת את הגוף שלכם, בלי פשרות.</p>
+      </div>
+      <div class="index-story-section__transparency">
+        <div class="index-story-section__transparency-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
+            <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="1.8" fill="none"></circle>
+            <path d="M14 7 L14 15 M14 18 L14 18.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </div>
+        <div class="index-story-section__transparency-content">
+          <h3 class="index-story-section__subtitle">שקיפות מלאה – האחריות שלנו אליכם</h3>
+          <p>האבקה מוכנה בהכנה ביתית ואינה מוצר תעשייתי. היא אינה מיועדת להחליף ייעוץ רפואי, אבחון או טיפול דנטלי מקצועי. אנו ממליצים להתייעץ עם רופא השיניים שלכם לפני השימוש, במיוחד אם יש לכם רגישויות או מצבים רפואיים ידועים. המטרה שלנו היא להציע אלטרנטיבה טבעית ומזינה, לצד הקפדה על שקיפות ואחריות מלאה.</p>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <section data-band-index="3" class="index-process-section" data-layout-spec="בית-process" dir="rtl" id="index-process-section"><div class="index-process-section__container"><h2 class="index-process-section__title" >איך משתמשים באבקה?</h2><p class="index-process-section__subtitle">טקס צחצוח טבעי בן ארבעה שלבים – פשוט, עמוק ומחזק</p><div class="index-process-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1782480755408-tx7r3e" data-zappy-auto-grid="true" data-original-item-width="276" data-original-gap="32px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true"><div class="index-process-section__card" data-grid-item-index="0"><div class="index-process-section__card-number">01</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-1" data-context="A close-up of a small wooden spoon with SHILAT tooth powder next to a spoonful of white yogurt on a ceramic dish, warm natural lighting" width="180" height="180" src="/assets/site-index-process-image-1.webp" alt="שלב 1: ערבוב אבקת שילט עם יוגורט" data-element-type="image" data-element-id="img-1782480755386-4m5e6sx2q" ></div><h3 class="index-process-section__card-title">ערבוב עם יוגורט</h3><p class="index-process-section__card-text" >קחו כמות קטנה של האבקה וערבבו עם מעט יוגורט טבעי לקבלת משחה חלקה.</p></div><div class="index-process-section__card" data-grid-item-index="1"><div class="index-process-section__card-number">02</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-2" data-context="A person gently brushing their teeth with a bamboo toothbrush, soft focus, calm morning light, natural bathroom setting" width="180" height="180" src="/assets/site-index-process-image-2.webp" alt="שלב 2: צחצוח עדין" data-element-type="image" data-element-id="img-1782480755386-fone8v4ai" ></div><h3 class="index-process-section__card-title">צחצוח עדין</h3><p class="index-process-section__card-text">צחצחו בעדינות במשך שתי דקות, תוך כדי הנאה מהמרקם העדין ומהארומה הטבעית.</p></div><div class="index-process-section__card" data-grid-item-index="2"><div class="index-process-section__card-number">03</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-3" data-context="A person spitting toothpaste foam into a sink, close-up, clean modern bathroom, focus on the action" width="180" height="180" src="/assets/site-index-process-image-3.webp" alt="שלב 3: יריקה ללא שטיפה" data-element-type="image" data-element-id="img-1782480755386-fe8wl09jt" ></div><h3 class="index-process-section__card-title">יריקה בלבד</h3><p class="index-process-section__card-text">בסיום הצחצוח, ירקו את הקצף אך הימנעו משטיפת הפה במים. כך המינרלים נשארים צמודים לשיניים.</p></div><div class="index-process-section__card" data-grid-item-index="3"><div class="index-process-section__card-number">04</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-4" data-context="A woman smiling with healthy white teeth, feeling fresh and confident, soft natural light, wellness lifestyle" width="180" height="180" src="/assets/site-index-process-image-4.webp" alt="שלב 4: ספיגת מינרלים" data-element-type="image" data-element-id="img-1782480755386-kq2jojxa1" ></div><h3 class="index-process-section__card-title">ספיגה ממושכת</h3><p class="index-process-section__card-text">הניחו למינרלים לפעול. הימנעו מאכילה או שתייה למשך 20 דקות לפחות, כדי לאפשר ספיגה מיטבית באמייל.</p></div></div><div class="index-process-section__synergy"><p class="index-process-section__synergy-text">החומצה הלקטית שביוגורט מעודדת פעילות רוק בריאה ועשירה בסידן, בעוד שמינרלי הקורט מאדמה דיאטומית נשארים צמודים לאמייל. השילוב הזה יוצר סינרגיה טבעית המסייעת לתהליך מינרליזציה מחדש, מחזקת את השן ומפחיתה רגישות – ללא כימיקלים, באחריות ובפשטות.</p></div></div><div class="index-process-section__divider-wrapper"><svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,80 L0,45 Q100,30 200,42 T400,38 Q550,32 650,44 T850,35 Q950,40 1050,32 T1200,45 L1200,80 Z" fill="var(--bg-light)"></path></svg></div></section>
