@@ -958,6 +958,283 @@
 }
 
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-process-section {
+  position: relative;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 20px 100px;
+  overflow: hidden;
+  direction: rtl;
+}
+
+.index-process-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Header */
+.index-process-section__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.index-process-section__title {
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.index-process-section__subtitle {
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Timeline Grid */
+.index-process-section__timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+/* Connecting Line (Desktop only) */
+.index-process-section__timeline::before {
+  content: '';
+  position: absolute;
+  top: 120px;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--border-light), transparent);
+  z-index: 0;
+}
+
+/* Step Card */
+.index-process-section__step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.index-process-section__step-media {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 28px;
+  background: var(--bg-light);
+  box-shadow: 0 8px 32px rgba(61,46,26,0.08);
+  border: 4px solid #FFFFFF;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.index-process-section__step:hover .index-process-section__step-media {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(61,46,26,0.12);
+}
+
+.index-process-section__step-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.index-process-section__step-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0 8px;
+}
+
+.index-process-section__step-number {
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  opacity: 0.3;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.index-process-section__step-title {
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.index-process-section__step-text {
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 280px;
+}
+
+/* Science Note Panel */
+.index-process-section__science-note {
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(61,46,26,0.08);
+  border: 1px solid rgba(200,169,110,0.15);
+  padding: 28px 32px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  transition: box-shadow 0.3s ease;
+}
+
+.index-process-section__science-note:hover {
+  box-shadow: 0 16px 48px rgba(61,46,26,0.12);
+}
+
+.index-process-section__science-icon {
+  color: var(--primary);
+  flex-shrink: 0;
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+.index-process-section__science-text {
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-dark);
+  margin: 0;
+  text-align: right;
+}
+
+/* Decorative Motif */
+.index-process-section__decoration {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .index-process-section__timeline {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 24px;
+  }
+  
+  .index-process-section__timeline::before {
+    display: none;
+  }
+  
+  .index-process-section__step-media {
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-process-section {
+    padding: 60px 16px 80px;
+  }
+
+  .index-process-section__timeline {
+    grid-template-columns: 1fr !important;
+    gap: 48px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+  }
+
+  .index-process-section__timeline::before {
+    display: none;
+  }
+
+  .index-process-section__step {
+    flex-direction: row;
+    text-align: right;
+    gap: 20px;
+  }
+
+  .index-process-section__step-media {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+  }
+
+  .index-process-section__step-content {
+    align-items: flex-start;
+    text-align: right;
+    gap: 6px;
+    padding: 0;
+  }
+
+  .index-process-section__step-number {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  .index-process-section__step-text {
+    max-width: 100%;
+  }
+
+  .index-process-section__science-note {
+    flex-direction: column;
+    padding: 24px 20px;
+    gap: 12px;
+  }
+
+  .index-process-section__science-icon {
+    margin-top: 0;
+  }
+
+  .index-process-section__decoration {
+    top: auto;
+    bottom: 20px;
+    left: 10px;
+    width: 100px;
+    opacity: 0.4;
+  }
+
+  .index-process-section__decoration svg {
+    width: 100%;
+    height: auto;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_SECTION_HEADER:בית-process */
+[data-layout-spec="בית-process"] > header {
+  max-width: min(92vw, 60ch) !important;
+  margin-inline: auto !important;
+  padding-inline: 16px;
+  text-align: center !important;
+}
+[data-layout-spec="בית-process"] > header > * { margin-inline: auto !important; max-width: 100% !important; }
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "c3c51965-09aa-4fd8-bdcd-cf6733498e58"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -1656,7 +1933,91 @@
   </div>
 </section>
 
-<section data-band-index="3" class="index-process-section" data-layout-spec="בית-process" dir="rtl" id="index-process-section"><div class="index-process-section__container"><h2 class="index-process-section__title" >איך משתמשים באבקה?</h2><p class="index-process-section__subtitle">טקס צחצוח טבעי בן ארבעה שלבים – פשוט, עמוק ומחזק</p><div class="index-process-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1782480755408-tx7r3e" data-zappy-auto-grid="true" data-original-item-width="276" data-original-gap="32px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true"><div class="index-process-section__card" data-grid-item-index="0"><div class="index-process-section__card-number">01</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-1" data-context="A close-up of a small wooden spoon with SHILAT tooth powder next to a spoonful of white yogurt on a ceramic dish, warm natural lighting" width="180" height="180" src="/assets/site-index-process-image-1.webp" alt="שלב 1: ערבוב אבקת שילט עם יוגורט" data-element-type="image" data-element-id="img-1782480755386-4m5e6sx2q" ></div><h3 class="index-process-section__card-title">ערבוב עם יוגורט</h3><p class="index-process-section__card-text" >קחו כמות קטנה של האבקה וערבבו עם מעט יוגורט טבעי לקבלת משחה חלקה.</p></div><div class="index-process-section__card" data-grid-item-index="1"><div class="index-process-section__card-number">02</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-2" data-context="A person gently brushing their teeth with a bamboo toothbrush, soft focus, calm morning light, natural bathroom setting" width="180" height="180" src="/assets/site-index-process-image-2.webp" alt="שלב 2: צחצוח עדין" data-element-type="image" data-element-id="img-1782480755386-fone8v4ai" ></div><h3 class="index-process-section__card-title">צחצוח עדין</h3><p class="index-process-section__card-text">צחצחו בעדינות במשך שתי דקות, תוך כדי הנאה מהמרקם העדין ומהארומה הטבעית.</p></div><div class="index-process-section__card" data-grid-item-index="2"><div class="index-process-section__card-number">03</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-3" data-context="A person spitting toothpaste foam into a sink, close-up, clean modern bathroom, focus on the action" width="180" height="180" src="/assets/site-index-process-image-3.webp" alt="שלב 3: יריקה ללא שטיפה" data-element-type="image" data-element-id="img-1782480755386-fe8wl09jt" ></div><h3 class="index-process-section__card-title">יריקה בלבד</h3><p class="index-process-section__card-text">בסיום הצחצוח, ירקו את הקצף אך הימנעו משטיפת הפה במים. כך המינרלים נשארים צמודים לשיניים.</p></div><div class="index-process-section__card" data-grid-item-index="3"><div class="index-process-section__card-number">04</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-4" data-context="A woman smiling with healthy white teeth, feeling fresh and confident, soft natural light, wellness lifestyle" width="180" height="180" src="/assets/site-index-process-image-4.webp" alt="שלב 4: ספיגת מינרלים" data-element-type="image" data-element-id="img-1782480755386-kq2jojxa1" ></div><h3 class="index-process-section__card-title">ספיגה ממושכת</h3><p class="index-process-section__card-text">הניחו למינרלים לפעול. הימנעו מאכילה או שתייה למשך 20 דקות לפחות, כדי לאפשר ספיגה מיטבית באמייל.</p></div></div><div class="index-process-section__synergy"><p class="index-process-section__synergy-text">החומצה הלקטית שביוגורט מעודדת פעילות רוק בריאה ועשירה בסידן, בעוד שמינרלי הקורט מאדמה דיאטומית נשארים צמודים לאמייל. השילוב הזה יוצר סינרגיה טבעית המסייעת לתהליך מינרליזציה מחדש, מחזקת את השן ומפחיתה רגישות – ללא כימיקלים, באחריות ובפשטות.</p></div></div><div class="index-process-section__divider-wrapper"><svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,80 L0,45 Q100,30 200,42 T400,38 Q550,32 650,44 T850,35 Q950,40 1050,32 T1200,45 L1200,80 Z" fill="var(--bg-light)"></path></svg></div></section>
+<section class="index-process-section" data-layout-spec="בית-process" data-zappy-section="true" id="index-process-section">
+  <div class="index-process-section__container">
+    
+    <!-- Section Header -->
+    <header class="index-process-section__header">
+      <h2 class="index-process-section__title">איך משתמשים באבקה?</h2>
+      <p class="index-process-section__subtitle">טקס צחצוח טבעי בן ארבעה שלבים – פשוט, עמוק ומחזק</p>
+    </header>
+
+    <!-- Process Timeline Grid -->
+    <div class="index-process-section__timeline">
+      
+      <!-- Step 1 -->
+      <article class="index-process-section__step">
+        <div class="index-process-section__step-media">
+          <img alt="שלב 1: ערבוב אבקת שילט עם יוגורט" src="/assets/site-index-process-image-1.webp" data-placeholder="index-process-image-1" data-context="A close-up of a small wooden spoon with SHILAT tooth powder next to a spoonful of white yogurt on a ceramic dish, warm natural lighting" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+        </div>
+        <div class="index-process-section__step-content">
+          <span class="index-process-section__step-number">01</span>
+          <h3 class="index-process-section__step-title">ערבוב עם יוגורט</h3>
+          <p class="index-process-section__step-text">קחו כמות קטנה של האבקה וערבבו עם מעט יוגורט טבעי לקבלת משחה חלקה.</p>
+        </div>
+      </article>
+
+      <!-- Step 2 -->
+      <article class="index-process-section__step">
+        <div class="index-process-section__step-media">
+          <img alt="שלב 2: צחצוח עדין" src="/assets/site-index-process-image-2.webp" data-placeholder="index-process-image-2" data-context="A person gently brushing their teeth with a bamboo toothbrush, soft focus, calm morning light, natural bathroom setting" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+        </div>
+        <div class="index-process-section__step-content">
+          <span class="index-process-section__step-number">02</span>
+          <h3 class="index-process-section__step-title">צחצוח עדין</h3>
+          <p class="index-process-section__step-text">צחצחו בעדינות במשך שתי דקות, תוך כדי הנאה מהמרקם העדין ומהארומה הטבעית.</p>
+        </div>
+      </article>
+
+      <!-- Step 3 -->
+      <article class="index-process-section__step">
+        <div class="index-process-section__step-media">
+          <img alt="שלב 3: יריקה ללא שטיפה" src="/assets/site-index-process-image-3.webp" data-placeholder="index-process-image-3" data-context="A person spitting toothpaste foam into a sink, close-up, clean modern bathroom, focus on the action" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+        </div>
+        <div class="index-process-section__step-content">
+          <span class="index-process-section__step-number">03</span>
+          <h3 class="index-process-section__step-title">יריקה בלבד</h3>
+          <p class="index-process-section__step-text">בסיום הצחצוח, ירקו את הקצף אך הימנעו משטיפת הפה במים. כך המינרלים נשארים צמודים לשיניים.</p>
+        </div>
+      </article>
+
+      <!-- Step 4 -->
+      <article class="index-process-section__step">
+        <div class="index-process-section__step-media">
+          <img alt="שלב 4: ספיגת מינרלים" src="/assets/site-index-process-image-4.webp" data-placeholder="index-process-image-4" data-context="A woman smiling with healthy white teeth, feeling fresh and confident, soft natural light, wellness lifestyle" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+        </div>
+        <div class="index-process-section__step-content">
+          <span class="index-process-section__step-number">04</span>
+          <h3 class="index-process-section__step-title">ספיגה ממושכת</h3>
+          <p class="index-process-section__step-text">הניחו למינרלים לפעול. הימנעו מאכילה או שתייה למשך 20 דקות לפחות, כדי לאפשר ספיגה מיטבית באמייל.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Scientific Explanation Panel -->
+    <aside class="index-process-section__science-note">
+      <div class="index-process-section__science-icon" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
+          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"></circle>
+          <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+        </svg>
+      </div>
+      <p class="index-process-section__science-text">החומצה הלקטית שביוגורט מעודדת פעילות רוק בריאה ועשירה בסידן, בעוד שמינרלי הקורט מאדמה דיאטומית נשארים צמודים לאמייל. השילוב הזה יוצר סינרגיה טבעית המסייעת לתהליך מינרליזציה מחדש, מחזקת את השן ומפחיתה רגישות – ללא כימיקלים, באחריות ובפשטות.</p>
+    </aside>
+
+  </div>
+
+  <!-- Decorative Motif (Botanical) -->
+  <div class="index-process-section__decoration" aria-hidden="true">
+    <svg width="180" height="200" viewBox="0 0 180 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M90 190 C60 160 20 120 30 80 C40 40 70 20 90 10 C110 20 140 40 150 80 C160 120 120 160 90 190Z" stroke="var(--primary)" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.2"></path>
+      <path d="M90 10 C80 40 60 80 50 110" stroke="var(--secondary)" stroke-width="1" opacity="0.15"></path>
+      <path d="M90 10 C100 40 120 80 130 110" stroke="var(--secondary)" stroke-width="1" opacity="0.15"></path>
+    </svg>
+  </div>
+
+</section>
 
 <section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta">
   <div class="cta-container">
