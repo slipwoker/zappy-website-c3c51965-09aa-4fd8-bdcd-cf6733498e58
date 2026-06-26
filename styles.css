@@ -2708,8 +2708,8 @@ main { flex: 1 0 auto; }
   }
 
   .how-it-works-ritual-steps-section__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  grid-template-columns: repeat(4, 1fr);
+}
 
   .how-it-works-ritual-steps-section__card {
     flex-direction: row;
@@ -2738,8 +2738,8 @@ main { flex: 1 0 auto; }
   }
 
   .how-it-works-ritual-steps-section__grid {
-    grid-template-columns: 1fr !important;
-  }
+  grid-template-columns: repeat(2, 1fr) !important;
+}
 
   .how-it-works-ritual-steps-section__card {
     padding: 24px;
