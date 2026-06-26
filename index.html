@@ -257,6 +257,486 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  overflow: hidden;
+  padding-bottom: 80px;
+  direction: rtl;
+  text-align: right;
+}
+
+.index-hero-section__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.92) saturate(1.1);
+}
+
+.index-hero-section__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 15% 30%, rgba(60, 51, 45, 0.15) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(60, 51, 45, 0.52) 0%, rgba(60, 51, 45, 0.35) 40%, rgba(60, 51, 45, 0.18) 70%, rgba(60, 51, 45, 0.42) 100%);
+}
+
+.index-hero-section__container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 24px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.index-hero-section__label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  opacity: 0.85;
+  margin: 0;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.35);
+}
+
+.index-hero-section__headline {
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--text-light);
+  margin: 0;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.45);
+  max-width: 700px;
+}
+
+.index-hero-section__subtitle {
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text-light);
+  margin: 0;
+  max-width: 580px;
+  opacity: 0.95;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.index-hero-section__ritual {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 580px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 16px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.index-hero-section__ritual-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.index-hero-section__ritual-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin: 0;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.index-hero-section__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.index-hero-section__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border-radius: 100px;
+  padding: 14px 28px;
+  white-space: nowrap;
+}
+
+.index-hero-section__btn--primary {
+  background: var(--primary);
+  color: #FFFFFF;
+  border: none;
+  box-shadow: 0 8px 24px rgba(184, 115, 82, 0.35);
+}
+
+.index-hero-section__btn--primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(184, 115, 82, 0.5);
+  background: #C88462;
+}
+
+.index-hero-section__btn--ghost {
+  background: transparent;
+  color: var(--text-light);
+  border: 1.5px solid rgba(244, 235, 221, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.index-hero-section__btn--ghost:hover {
+  background: rgba(244, 235, 221, 0.12);
+  border-color: var(--text-light);
+  transform: translateY(-3px);
+}
+
+.index-hero-section__flourish {
+  position: absolute;
+  top: 8%;
+  inset-inline-start: 5%;
+  z-index: 2;
+  pointer-events: none;
+  width: 200px;
+  height: 200px;
+  color: var(--text-light);
+  opacity: 0.7;
+}
+
+.index-hero-section__flourish svg {
+  width: 100%;
+  height: 100%;
+}
+
+.index-hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+
+  .index-hero-section__container {
+    padding: 100px 16px 40px;
+    gap: 18px;
+  }
+
+  .index-hero-section__headline {
+    font-size: 2.2rem;
+    max-width: 100%;
+  }
+
+  .index-hero-section__subtitle {
+    font-size: 1.1rem;
+    max-width: 100%;
+  }
+
+  .index-hero-section__ritual {
+    max-width: 100%;
+    padding: 14px 16px;
+  }
+
+  .index-hero-section__actions {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .index-hero-section__btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .index-hero-section__flourish {
+    width: 140px;
+    height: 140px;
+    top: 5%;
+    inset-inline-start: 2%;
+    opacity: 0.5;
+  }
+
+  .index-hero-section__divider-wrapper {
+    height: 60px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-hero-section__container {
+    padding: 120px 32px 60px;
+  }
+
+  .index-hero-section__headline {
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .index-hero-section__headline {
+    font-size: 3.2rem;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+</style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-benefits-section {
+  position: relative;
+  overflow: visible;
+  padding: 80px 16px;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+  direction: rtl;
+}
+
+.index-benefits-section__container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.index-benefits-section__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.index-benefits-section__heading {
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-dark);
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.index-benefits-section__subtitle {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: var(--text-muted);
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.index-benefits-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.index-benefits-section__card {
+  background: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(61, 46, 26, 0.08);
+  border: 1px solid rgba(200, 169, 110, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 0;
+}
+
+.index-benefits-section__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 64px rgba(61, 46, 26, 0.18);
+}
+
+.index-benefits-section__card-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--bg-light);
+}
+
+.index-benefits-section__card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.index-benefits-section__card:hover .index-benefits-section__card-image img {
+  transform: scale(1.05);
+}
+
+.index-benefits-section__card-content {
+  padding: 28px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  flex: 1;
+}
+
+.index-benefits-section__card-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--primary);
+  background: rgba(184, 115, 82, 0.08);
+  padding: 4px 14px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+.index-benefits-section__card-title {
+  font-family: 'Cormorant Garamond', 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-dark);
+  margin: 0 0 12px 0;
+  text-align: start;
+}
+
+.index-benefits-section__card-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0;
+  text-align: start;
+}
+
+.index-benefits-section__disclaimer {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-muted);
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.index-benefits-section__decoration--blob {
+  position: absolute;
+  bottom: 10%;
+  right: -5%;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle at 30% 30%, rgba(220, 204, 183, 0.25), transparent 70%);
+  border-radius: 60% 40% 50% 45% / 55% 45% 55% 45%;
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .index-benefits-section {
+    padding: 60px 16px;
+  }
+
+  .index-benefits-section__header {
+    margin-bottom: 40px;
+  }
+
+  .index-benefits-section__heading {
+    font-size: 1.75rem;
+  }
+
+  .index-benefits-section__subtitle {
+    font-size: 1rem;
+  }
+
+  .index-benefits-section__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .index-benefits-section__card-content {
+    padding: 20px 20px 24px;
+  }
+
+  .index-benefits-section__card-image {
+    height: 200px;
+  }
+
+  .index-benefits-section__decoration--blob {
+    width: 200px;
+    height: 200px;
+    bottom: 5%;
+    right: -10%;
+    filter: blur(50px);
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-benefits-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "c3c51965-09aa-4fd8-bdcd-cf6733498e58"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -835,105 +1315,84 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" data-hero-type="fullscreen-scrim">
-  <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A sunlit kitchen countertop scene with a ritualistic arrangement: a clear glass jar half-filled with fine natural tooth powder, a rustic wooden spoon resting beside it, a small bowl of creamy yogurt, fresh mint leaves, a cinnamon stick, and scattered matcha powder. The composition is warm and editorial, shot from above at a slight angle, with soft morning light casting gentle shadows. The main photographic subject sits on the right/end side of the frame, leaving the left/start side softly lit but less busy." width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="טקס צחצוח שיניים טבעי עם אבקת שילט, יוגורט וכפית עץ">
+    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" data-zappy-section="true">
+  <div class="index-hero-section__bg" style="background-image: url('assets/site-index-hero-image-1.webp'); background-size: cover; background-position: center;"></div>
+  <div class="index-hero-section__scrim"></div>
 
-  <div class="hero-fade-content">
-    <span class="hero-eyebrow" aria-label="תגית">טיפוח פה טבעי • הכנה ביתית</span>
-    <h1 class="display-xl">חיזוק אמייל טבעי<br>שמתחיל באבקה אחת</h1>
-    <h3 class="hero-subtitle">אבקת שיניים עשירה בסיליקה, קסיליטול ליבנה, מאצ'ה, מנטה וקינמון ציילון אורגניים — להחזרת מינרלים, מניעת עששת ושמירה על חניכיים בריאות.</h3>
-    <p class="hero-ritual-cue">
-      <span class="ritual-icon" aria-hidden="true">🥄</span>
-      <span>טקס יומי: צחצחו עם האבקה ויוגורט, ירקו ואל תשטפו — המינרלים נשארים צמודים לאמייל לאורך זמן ומבצעים מינרליזציה עמוקה.</span>
-    </p>
-    <div class="hero-cta-row">
-      <a href="/contact" class="btn-primary">
-        <i class="fas fa-leaf" aria-hidden="true"></i>
-        צרי קשר לפרטים
-      </a>
-      <a href="/how-it-works" class="btn-secondary">
-        <i class="fas fa-seedling" aria-hidden="true"></i>
-        גלי איך זה עובד
-      </a>
+  <div class="index-hero-section__container">
+    <p class="index-hero-section__label">טיפוח פה טבעי • הכנה ביתית</p>
+    <h1 class="index-hero-section__headline">חיזוק אמייל טבעי<br>שמתחיל באבקה אחת</h1>
+    <h3 class="index-hero-section__subtitle">אבקת שיניים עשירה בסיליקה, קסיליטול ליבנה, מאצ'ה, מנטה וקינמון ציילון אורגניים — להחזרת מינרלים, מניעת עששת ושמירה על חניכיים בריאות.</h3>
+
+    <div class="index-hero-section__ritual">
+      <span class="index-hero-section__ritual-icon" aria-hidden="true">🥄</span>
+      <p class="index-hero-section__ritual-text">טקס יומי: צחצחו עם האבקה ויוגורט, ירקו ואל תשטפו — המינרלים נשארים צמודים לאמייל לאורך זמן ומבצעים מינרליזציה עמוקה.</p>
+    </div>
+
+    <div class="index-hero-section__actions">
+      <a href="/contact" class="index-hero-section__btn index-hero-section__btn--primary">צרי קשר לפרטים</a>
+      <a href="/how-it-works" class="index-hero-section__btn index-hero-section__btn--ghost">גלי איך זה עובד</a>
     </div>
   </div>
 
-  <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,45 Q80,42 150,48 T300,42 Q380,45 450,40 T600,44 Q680,40 750,46 T900,42 Q980,45 1050,40 T1200,44 L1200,80 Z" fill="var(--bg-light)"></path>
+  <div class="index-hero-section__flourish" aria-hidden="true">
+    <svg data-no-icon-edit="true" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M180 40C160 20 120 20 100 40C80 20 40 20 20 40C0 60 0 100 20 120C40 140 80 160 100 180C120 160 160 140 180 120C200 100 200 60 180 40Z" stroke="currentColor" stroke-width="1.2" opacity="0.12"></path>
+      <circle cx="60" cy="50" r="4" stroke="currentColor" stroke-width="1" opacity="0.15"></circle>
+      <circle cx="140" cy="60" r="3" stroke="currentColor" stroke-width="1" opacity="0.15"></circle>
+      <circle cx="80" cy="150" r="5" stroke="currentColor" stroke-width="1" opacity="0.12"></circle>
+      <circle cx="130" cy="140" r="4" stroke="currentColor" stroke-width="1" opacity="0.12"></circle>
+    </svg>
+  </div>
+
+  <div class="index-hero-section__divider-wrapper" aria-hidden="true">
+    <svg data-no-icon-edit="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,45 Q60,40 120,48 T240,42 Q300,50 360,38 T480,45 Q540,42 600,48 T720,40 Q780,48 840,42 T960,45 Q1020,38 1080,44 T1200,40 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
 
-<section data-band-index="1" class="index-benefits-section" data-layout-spec="בית-benefits" dir="rtl">
+<section class="index-benefits-section" data-layout-spec="בית-benefits" style="background-color: var(--bg-light); color: var(--text-dark);" data-zappy-section="true">
   <div class="index-benefits-section__container">
-    <!-- Intro Block -->
-    <div class="index-benefits-section__intro">
-      <h2 class="index-benefits-section__intro-title">למה הפורמולה שלנו שונה?</h2>
-      <p class="index-benefits-section__intro-text">
-        אבקת השיניים של SHILAT נולדה מתוך הבנה עמוקה שהטבע יודע לטפל בשיניים טוב יותר מכל תעשייה. הפורמולה הייחודית שלנו משלבת אדמה דיאטומית עשירה בסיליקה, קסיליטול ליבנה טבעי, ותמציות צמחים אורגניות — ליצירת חוויית צחצוח שהיא גם טקס טיפוח וגם טיפול משקם.
-      </p>
+    <div class="index-benefits-section__header">
+      <h2 class="index-benefits-section__heading">למה הפורמולה שלנו שונה?</h2>
+      <p class="index-benefits-section__subtitle">אבקת השיניים של SHILAT נולדה מתוך הבנה עמוקה שהטבע יודע לטפל בשיניים טוב יותר מכל תעשייה. הפורמולה הייחודית שלנו משלבת אדמה דיאטומית עשירה בסיליקה, קסיליטול ליבנה טבעי, ותמציות צמחים אורגניות — ליצירת חוויית צחצוח שהיא גם טקס טיפוח וגם טיפול משקם.</p>
     </div>
-
-    <!-- Benefits Grid -->
     <div class="index-benefits-section__grid">
-      <!-- Card 1: Enamel Remineralization -->
-      <div class="index-benefits-section__card" data-reveal="">
+      <div class="index-benefits-section__card">
         <div class="index-benefits-section__card-image">
-          <img data-placeholder="index-benefits-image-1" data-context="Close-up macro shot of natural tooth powder ingredients on a warm cream ceramic spoon: fine beige diatomaceous earth powder, scattered green matcha tea leaves, a cinnamon stick, and fresh mint sprigs, soft morning light, shallow depth of field, earthy tones, editorial food photography style for a Natural Oral Care brand" width="400" height="300" src="/assets/site-index-benefits-image-1.webp" alt="אבקת שיניים טבעית עם מרכיבים אורגניים על כף קרמית" loading="lazy">
+          <img alt="אבקת שיניים טבעית עם מרכיבים אורגניים על כף קרמית" src="/assets/site-index-benefits-image-1.webp" data-placeholder="index-benefits-image-1" data-context="Close-up macro shot of natural tooth powder ingredients on a warm cream ceramic spoon: fine beige diatomaceous earth powder, scattered green matcha tea leaves, a cinnamon stick, and fresh mint sprigs, soft morning light, shallow depth of field, earthy tones, editorial food photography style for a Natural Oral Care brand" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
         </div>
         <div class="index-benefits-section__card-content">
-          <span class="index-benefits-section__card-annotation">מינרליזציה טבעית</span>
+          <span class="index-benefits-section__card-tag">מינרליזציה טבעית</span>
           <h3 class="index-benefits-section__card-title">תמיכה בחיזוק האמייל</h3>
-          <p class="index-benefits-section__card-text">
-            האדמה הדיאטומית בדרגת מזון עשירה בסיליקה ובמינרלי קורט חיוניים. במגע עם רוק עשיר בסידן, היא חודרת למיקרו-סדקים באמייל ומסייעת לתהליך רמינרליזציה עמוק — מחזקת את השן ומפחיתה רגישות באופן טבעי לחלוטין.
-          </p>
+          <p class="index-benefits-section__card-text">האדמה הדיאטומית בדרגת מזון עשירה בסיליקה ובמינרלי קורט חיוניים. במגע עם רוק עשיר בסידן, היא חודרת למיקרו-סדקים באמייל ומסייעת לתהליך רמינרליזציה עמוק — מחזקת את השן ומפחיתה רגישות באופן טבעי לחלוטין.</p>
         </div>
       </div>
-
-      <!-- Card 2: Cavity Prevention -->
-      <div class="index-benefits-section__card" data-reveal="">
+      <div class="index-benefits-section__card">
         <div class="index-benefits-section__card-image">
-          <img data-placeholder="index-benefits-image-2" data-context="A small glass jar of natural tooth powder beside a wooden toothbrush and a white ceramic bowl of yogurt, with scattered birch xylitol crystals and a star anise on a linen cloth, warm natural lighting, rustic apothecary aesthetic for a Natural Oral Care brand" width="400" height="300" src="/assets/site-index-benefits-image-2.webp" alt="צנצנת אבקת שיניים טבעית לצד מברשת עץ ויוגורט" loading="lazy">
+          <img alt="צנצנת אבקת שיניים טבעית לצד מברשת עץ ויוגורט" src="/assets/site-index-benefits-image-2.webp" data-placeholder="index-benefits-image-2" data-context="A small glass jar of natural tooth powder beside a wooden toothbrush and a white ceramic bowl of yogurt, with scattered birch xylitol crystals and a star anise on a linen cloth, warm natural lighting, rustic apothecary aesthetic for a Natural Oral Care brand" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
         </div>
         <div class="index-benefits-section__card-content">
-          <span class="index-benefits-section__card-annotation">איזון הפה</span>
+          <span class="index-benefits-section__card-tag">איזון הפה</span>
           <h3 class="index-benefits-section__card-title">סיוע במניעת עששת</h3>
-          <p class="index-benefits-section__card-text">
-            קסיליטול ליבנה טבעי פועל לאיזון רמת החומציות בחלל הפה ויוצר סביבה עוינת לחיידקים מחוללי עששת. השילוב עם מנטה אורגנית מרענן את הנשימה ומשאיר תחושת ניקיון לאורך שעות — ללא כימיקלים אגרסיביים.
-          </p>
+          <p class="index-benefits-section__card-text">קסיליטול ליבנה טבעי פועל לאיזון רמת החומציות בחלל הפה ויוצר סביבה עוינת לחיידקים מחוללי עששת. השילוב עם מנטה אורגנית מרענן את הנשימה ומשאיר תחושת ניקיון לאורך שעות — ללא כימיקלים אגרסיביים.</p>
         </div>
       </div>
-
-      <!-- Card 3: Gum Health -->
-      <div class="index-benefits-section__card" data-reveal="">
+      <div class="index-benefits-section__card">
         <div class="index-benefits-section__card-image">
-          <img data-placeholder="index-benefits-image-3" data-context="An overhead flat lay of natural oral care ingredients: matcha powder in a small wooden bowl, Ceylon cinnamon quills, fresh mint leaves, and a scoop of tooth powder on a textured cream paper, soft shadows, botanical wellness aesthetic for a Natural Oral Care brand" width="400" height="300" src="/assets/site-index-benefits-image-3.webp" alt="מרכיבי אבקת שיניים טבעית: מאצ׳ה, קינמון ציילון ומנטה" loading="lazy">
+          <img alt="מרכיבי אבקת שיניים טבעית: מאצ׳ה, קינמון ציילון ומנטה" src="/assets/site-index-benefits-image-3.webp" data-placeholder="index-benefits-image-3" data-context="An overhead flat lay of natural oral care ingredients: matcha powder in a small wooden bowl, Ceylon cinnamon quills, fresh mint leaves, and a scoop of tooth powder on a textured cream paper, soft shadows, botanical wellness aesthetic for a Natural Oral Care brand" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
         </div>
         <div class="index-benefits-section__card-content">
-          <span class="index-benefits-section__card-annotation">טיפול יומיומי</span>
+          <span class="index-benefits-section__card-tag">טיפול יומיומי</span>
           <h3 class="index-benefits-section__card-title">שמירה על חניכיים בריאות</h3>
-          <p class="index-benefits-section__card-text">
-            תמציות מאצ'ה, מנטה וקינמון ציילון אורגניים ידועות בסגולותיהן האנטי-דלקתיות והמרגיעות. הצחצוח העדין עם האבקה מסייע בהפחתת רגישות חניכיים, תומך בזרימת דם תקינה, ושומר על תחושת רעננות ורוגע בכל צחצוח.
-          </p>
+          <p class="index-benefits-section__card-text">תמציות מאצ'ה, מנטה וקינמון ציילון אורגניים ידועות בסגולותיהן האנטי-דלקתיות והמרגיעות. הצחצוח העדין עם האבקה מסייע בהפחתת רגישות חניכיים, תומך בזרימת דם תקינה, ושומר על תחושת רעננות ורוגע בכל צחצוח.</p>
         </div>
       </div>
     </div>
-
-    <!-- Bottom Clarification -->
-    <div class="index-benefits-section__footer-note">
-      <p class="index-benefits-section__footer-text">
-        הפורמולה שלנו שואבת השראה מתכשירים טבעיים הנמכרים בחו״ל, אך פותחה במיוחד עבורכם — בהכנה ביתית קפדנית, בשקיפות מלאה וללא פשרות על איכות. האבקה אינה מחליפה ייעוץ רפואי או טיפול שיניים מקצועי.
-      </p>
-    </div>
+    <p class="index-benefits-section__disclaimer">הפורמולה שלנו שואבת השראה מתכשירים טבעיים הנמכרים בחו״ל, אך פותחה במיוחד עבורכם — בהכנה ביתית קפדנית, בשקיפות מלאה וללא פשרות על איכות. האבקה אינה מחליפה ייעוץ רפואי או טיפול שיניים מקצועי.</p>
   </div>
-
-  <!-- Bottom Divider: Torn-Paper Curve -->
-  <div class="index-benefits-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,35 Q60,28 120,38 T240,32 Q300,40 360,30 T480,38 Q540,28 600,36 T720,32 Q780,40 840,30 T960,38 Q1020,28 1080,36 T1200,32 L1200,80 Z" fill="var(--bg-light)"></path>
-    </svg>
-  </div>
+  <div class="index-benefits-section__decoration index-benefits-section__decoration--blob" aria-hidden="true"></div>
 </section>
 
 <section data-band-index="2" class="index-story-section" data-layout-spec="בית-story">
@@ -979,7 +1438,7 @@
     </div>
 </section>
 
-<section data-band-index="3" class="index-process-section" data-layout-spec="בית-process" dir="rtl" id="index-process-section"><div class="index-process-section__container"><h2 class="index-process-section__title" style="">איך משתמשים באבקה?</h2><p class="index-process-section__subtitle">טקס צחצוח טבעי בן ארבעה שלבים – פשוט, עמוק ומחזק</p><div class="index-process-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1782480755408-tx7r3e" data-zappy-auto-grid="true" data-original-item-width="276" data-original-gap="32px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true"><div class="index-process-section__card" data-grid-item-index="0"><div class="index-process-section__card-number">01</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-1" data-context="A close-up of a small wooden spoon with SHILAT tooth powder next to a spoonful of white yogurt on a ceramic dish, warm natural lighting" width="180" height="180" src="/assets/site-index-process-image-1.webp" alt="שלב 1: ערבוב אבקת שילט עם יוגורט" data-element-type="image" data-element-id="img-1782480755386-4m5e6sx2q" style=""></div><h3 class="index-process-section__card-title">ערבוב עם יוגורט</h3><p class="index-process-section__card-text" style="">קחו כמות קטנה של האבקה וערבבו עם מעט יוגורט טבעי לקבלת משחה חלקה.</p></div><div class="index-process-section__card" data-grid-item-index="1"><div class="index-process-section__card-number">02</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-2" data-context="A person gently brushing their teeth with a bamboo toothbrush, soft focus, calm morning light, natural bathroom setting" width="180" height="180" src="/assets/site-index-process-image-2.webp" alt="שלב 2: צחצוח עדין" data-element-type="image" data-element-id="img-1782480755386-fone8v4ai" style=""></div><h3 class="index-process-section__card-title">צחצוח עדין</h3><p class="index-process-section__card-text">צחצחו בעדינות במשך שתי דקות, תוך כדי הנאה מהמרקם העדין ומהארומה הטבעית.</p></div><div class="index-process-section__card" data-grid-item-index="2"><div class="index-process-section__card-number">03</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-3" data-context="A person spitting toothpaste foam into a sink, close-up, clean modern bathroom, focus on the action" width="180" height="180" src="/assets/site-index-process-image-3.webp" alt="שלב 3: יריקה ללא שטיפה" data-element-type="image" data-element-id="img-1782480755386-fe8wl09jt" style=""></div><h3 class="index-process-section__card-title">יריקה בלבד</h3><p class="index-process-section__card-text">בסיום הצחצוח, ירקו את הקצף אך הימנעו משטיפת הפה במים. כך המינרלים נשארים צמודים לשיניים.</p></div><div class="index-process-section__card" data-grid-item-index="3"><div class="index-process-section__card-number">04</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-4" data-context="A woman smiling with healthy white teeth, feeling fresh and confident, soft natural light, wellness lifestyle" width="180" height="180" src="/assets/site-index-process-image-4.webp" alt="שלב 4: ספיגת מינרלים" data-element-type="image" data-element-id="img-1782480755386-kq2jojxa1" style=""></div><h3 class="index-process-section__card-title">ספיגה ממושכת</h3><p class="index-process-section__card-text">הניחו למינרלים לפעול. הימנעו מאכילה או שתייה למשך 20 דקות לפחות, כדי לאפשר ספיגה מיטבית באמייל.</p></div></div><div class="index-process-section__synergy"><p class="index-process-section__synergy-text">החומצה הלקטית שביוגורט מעודדת פעילות רוק בריאה ועשירה בסידן, בעוד שמינרלי הקורט מאדמה דיאטומית נשארים צמודים לאמייל. השילוב הזה יוצר סינרגיה טבעית המסייעת לתהליך מינרליזציה מחדש, מחזקת את השן ומפחיתה רגישות – ללא כימיקלים, באחריות ובפשטות.</p></div></div><div class="index-process-section__divider-wrapper"><svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,80 L0,45 Q100,30 200,42 T400,38 Q550,32 650,44 T850,35 Q950,40 1050,32 T1200,45 L1200,80 Z" fill="var(--bg-light)"></path></svg></div></section>
+<section data-band-index="3" class="index-process-section" data-layout-spec="בית-process" dir="rtl" id="index-process-section"><div class="index-process-section__container"><h2 class="index-process-section__title" >איך משתמשים באבקה?</h2><p class="index-process-section__subtitle">טקס צחצוח טבעי בן ארבעה שלבים – פשוט, עמוק ומחזק</p><div class="index-process-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1782480755408-tx7r3e" data-zappy-auto-grid="true" data-original-item-width="276" data-original-gap="32px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 276px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true"><div class="index-process-section__card" data-grid-item-index="0"><div class="index-process-section__card-number">01</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-1" data-context="A close-up of a small wooden spoon with SHILAT tooth powder next to a spoonful of white yogurt on a ceramic dish, warm natural lighting" width="180" height="180" src="/assets/site-index-process-image-1.webp" alt="שלב 1: ערבוב אבקת שילט עם יוגורט" data-element-type="image" data-element-id="img-1782480755386-4m5e6sx2q" ></div><h3 class="index-process-section__card-title">ערבוב עם יוגורט</h3><p class="index-process-section__card-text" >קחו כמות קטנה של האבקה וערבבו עם מעט יוגורט טבעי לקבלת משחה חלקה.</p></div><div class="index-process-section__card" data-grid-item-index="1"><div class="index-process-section__card-number">02</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-2" data-context="A person gently brushing their teeth with a bamboo toothbrush, soft focus, calm morning light, natural bathroom setting" width="180" height="180" src="/assets/site-index-process-image-2.webp" alt="שלב 2: צחצוח עדין" data-element-type="image" data-element-id="img-1782480755386-fone8v4ai" ></div><h3 class="index-process-section__card-title">צחצוח עדין</h3><p class="index-process-section__card-text">צחצחו בעדינות במשך שתי דקות, תוך כדי הנאה מהמרקם העדין ומהארומה הטבעית.</p></div><div class="index-process-section__card" data-grid-item-index="2"><div class="index-process-section__card-number">03</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-3" data-context="A person spitting toothpaste foam into a sink, close-up, clean modern bathroom, focus on the action" width="180" height="180" src="/assets/site-index-process-image-3.webp" alt="שלב 3: יריקה ללא שטיפה" data-element-type="image" data-element-id="img-1782480755386-fe8wl09jt" ></div><h3 class="index-process-section__card-title">יריקה בלבד</h3><p class="index-process-section__card-text">בסיום הצחצוח, ירקו את הקצף אך הימנעו משטיפת הפה במים. כך המינרלים נשארים צמודים לשיניים.</p></div><div class="index-process-section__card" data-grid-item-index="3"><div class="index-process-section__card-number">04</div><div class="index-process-section__card-illustration"><img loading="lazy" decoding="async" data-placeholder="index-process-image-4" data-context="A woman smiling with healthy white teeth, feeling fresh and confident, soft natural light, wellness lifestyle" width="180" height="180" src="/assets/site-index-process-image-4.webp" alt="שלב 4: ספיגת מינרלים" data-element-type="image" data-element-id="img-1782480755386-kq2jojxa1" ></div><h3 class="index-process-section__card-title">ספיגה ממושכת</h3><p class="index-process-section__card-text">הניחו למינרלים לפעול. הימנעו מאכילה או שתייה למשך 20 דקות לפחות, כדי לאפשר ספיגה מיטבית באמייל.</p></div></div><div class="index-process-section__synergy"><p class="index-process-section__synergy-text">החומצה הלקטית שביוגורט מעודדת פעילות רוק בריאה ועשירה בסידן, בעוד שמינרלי הקורט מאדמה דיאטומית נשארים צמודים לאמייל. השילוב הזה יוצר סינרגיה טבעית המסייעת לתהליך מינרליזציה מחדש, מחזקת את השן ומפחיתה רגישות – ללא כימיקלים, באחריות ובפשטות.</p></div></div><div class="index-process-section__divider-wrapper"><svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,80 L0,45 Q100,30 200,42 T400,38 Q550,32 650,44 T850,35 Q950,40 1050,32 T1200,45 L1200,80 Z" fill="var(--bg-light)"></path></svg></div></section>
 
 <section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta">
   <div class="cta-container">
